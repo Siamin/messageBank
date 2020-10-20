@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/list"
+            android:icon="@drawable/bookopen"
+            android:title="لیست" />
+        <item
+            android:id="@+id/love"
+            android:icon="@drawable/heart1"
+            android:title="علاقه مندی ها" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="اشتراک برنامه" />
+        <item
+            android:id="@+id/bazar"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="امتیاز دادن به برنامه" />
+        <item
+            android:id="@+id/developer"
+            android:icon="@drawable/android"
+            android:title="دیگر برنامه ها" />
+        <item
+            android:id="@+id/abut"
+            android:icon="@drawable/abut2"
+            android:title="درباره ما"/>
+    </group>
+
+</menu>
